@@ -1,0 +1,145 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma,
+		HelveticaNeueW10-55Roma, sans-serif;
+	color: #363636;
+}
+
+.secondary-font {
+	font-family: HelveticaNeueW01-45Ligh, HelveticaNeueW02-45Ligh,
+		HelveticaNeueW10-45Ligh, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #aa4dc8;
+}
+.nav-links a {
+	color: #555;
+	padding: 17px 15px 0;
+	border-top: 4px solid white;
+}
+.nav-links a:hover {
+	border-top: 4px solid #fc0;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	line-height: 30px;
+}
+.navigation {
+	border-bottom: 2px solid #f0f0f0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1060px;
+	margin: auto;
+	height: 100%;
+}
+
+.nav-links {
+	height: 100%;
+	display: flex;
+}
+
+.container {
+	display: flex;
+	max-width: 1060px;
+	margin: auto;
+}
+
+.info {
+	display: inline;
+	margin-top: 180px;
+}
+
+.text {
+	margin-top: 22px;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.header {
+	font-size: 45px;
+    line-height: 50px;
+}
+
+.error-code {
+	font-size: 22px;
+	font-weight: 100;
+	color: #929292;
+	line-height: 35px;
+}
+
+.links-section {
+	margin-top: 53px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.cat-bg {
+	position: fixed;
+	background-repeat: no-repeat;
+	background: url('https://static.parastorage.com/services/wix-public/1.719.0/images/error-pages/400_BG.jpg');
+	z-index: -1;
+	width: 1313px;
+	height: 721px;
+	top: 61px;
+	margin-left: 350px;
+}
+
+.arrow {
+	position: absolute;
+	background-image: url('https://static.parastorage.com/services/wix-public/1.719.0/images/error-pages/pink-arrow.png');
+	background-repeat: no-repeat;
+	width: 4px;
+	height: 8px;
+	margin-top: 13px;
+	margin-left: 5px;
+}
+
+@media screen and (max-width: 767px) {
+	.logo {
+		height: 19px;
+	}
+	.nav-links {
+		font-size: 11px;
+		transition: all linear 0.3s;
+	}
+	.info {
+		margin-top: 120px;
+	}
+	.header {
+		font-size: 44px;
+	}
+}
+
+@media screen and (max-width: 1060px) {
+	.info {
+		padding-left: 20px;
+	}
+	.navbar {
+		margin: 0px 10px 0px;
+	}
+
+	.header {
+		font-size: 50px;
+		line-height: 50px;
+	}
+
+	.cat-bg {
+		margin-left: 100px;
+	}
+}
